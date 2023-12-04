@@ -1,0 +1,14 @@
+<!-- Display the detail of leave applicaction from the leave component-->
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Leave Application</h5>
+      <p class="card-text">Leave Type: {{ leave?.leave_type }}</p>
+      <p class="card-text">Start Day: {{ leave?.start_day }}</p>
+      <p class="card-text">End Date: {{ leave?.end_date }}</p>
+      <p class="card-text">Status: {{ leave?.status }}</p>
+      <p class="card-text">Last Modified: {{ leave?.last_modified }}</p>
+      <p class="card-text">Approve By: {{ leave?.approve_by }}</p>
+      <button class="btn btn-primary" (click)="goBack()">Back</button>
+    </div>
+</div>
