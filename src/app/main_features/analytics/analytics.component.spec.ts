@@ -21,3 +21,4 @@ describe('AnalyticsComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
